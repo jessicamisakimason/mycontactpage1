@@ -1,0 +1,156 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/website\ background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+.center {
+    border-radius: 100px;
+	background: rgba(147, 175, 170, 0.75); /*this uses opacity of 75% for the background color*/
+	width: 45%;
+	min-width: 300 px;
+	padding: 2%;
+	margin: 100px auto;
+    margin-top: 40px;
+	margin-bottom: 175px;
+	text-align: center;
+}
+
+   
+#logo {
+    width: 20%;
+	margin-top: 175px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Jost', sans-serif;
+	font-size: 1.75em;
+	margin: 0px auto 10px auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    color: rgb(238, 235, 215);
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.25em;
+	line-height: 1.4;
+    color: rgb(252, 249, 245);
+    padding: 0px 0px;
+    margin: 0px auto 0px auto;
+	margin-bottom: 35px;
+}
+
+p {
+	font-family: 'Jost', sans-serif;
+    font-size: 1.25em;
+	width: 80%;
+    line-height: 1.6;
+    color: rgb(214, 230, 231);
+	margin: 0px auto 0px auto;
+	margin-top: 0px;
+	margin-bottom: 35px;
+}
+nav{
+	font-family: 'Jost', sans-serif;
+    font-size: 1.125em; 
+	width: 60%;
+	margin: 0 auto;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 20px;
+	}
+
+nav li{
+	display:inline-block;
+	}
+
+/* navigation text */
+nav a{
+	display:inline-block;
+	padding: 15px;
+	}
+
+/* actual navigation bubbles */
+a{
+	border-radius: 25px;
+	color: rgb(238, 235, 215);
+	text-decoration: none;
+	font-weight:500;
+	}
+
+/* hover effects */
+a:hover{
+	color: rgb(255, 255, 255);
+	background: rgb(110, 144, 138);
+	font-weight:600;
+	}
+    
+
