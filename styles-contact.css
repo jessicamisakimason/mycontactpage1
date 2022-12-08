@@ -88,28 +88,31 @@ html, body {
 	text-align: center;
 }
 
+/* Hey, I'm Jessica Misaki Mason */
 h1 {
 	font-family: 'Jost', sans-serif;
-	font-size: 1.75em;
+	font-size: 1.6em;
 	margin: 0px auto 10px auto;
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-bottom: 20px;
     color: rgb(238, 235, 215);
 }
 
+/* Cal Poly SLO... */
 h2 {
     font-family: 'Jost', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.1em;
 	line-height: 1.4;
     color: rgb(252, 249, 245);
     padding: 0px 0px;
     margin: 0px auto 0px auto;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 }
 
+/* I'm a lover of... */
 p {
 	font-family: 'Jost', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.1em;
 	width: 80%;
     line-height: 1.6;
     color: rgb(214, 230, 231);
@@ -119,13 +122,13 @@ p {
 }
 nav{
 	font-family: 'Jost', sans-serif;
-    font-size: 1.125em; 
+    font-size: 1em; 
 	width: 60%;
 	margin: 0 auto;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	}
 
 nav li{
